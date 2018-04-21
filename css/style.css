@@ -110,12 +110,13 @@ svg {
     width: 1040px;
     margin: 0 auto;
     margin-bottom: 110px;
+    font-weight: 400;
 }
 
 .cabinet-page__navigation-item {
     width: 145px;
     height: 50px;
-    font-size: 24px;
+    font-size: 19px;
     text-align: center;
     line-height: 50px;
 }
@@ -127,6 +128,7 @@ svg {
 .cabinet-page__navigation-item--active {
     background-color: #ffc337;
     color: white;
+    border-bottom: 5px solid #fffffffa;
 }
 
 .cabinet-page__navigation-item--active a:hover {
@@ -800,8 +802,8 @@ height: 1px;
     padding-bottom: 15px;
     padding-left: 22px;
     padding-right: 30px;
-    -webkit-box-shadow: 0px 0px 15px 0px grey;
-    box-shadow: 0px 0px 15px 0px grey;
+    -webkit-box-shadow: 0px 0px 15px 0px #8080802e;
+    box-shadow: 0px 0px 15px 0px #8080802e;
     background-color: white;
 }
 
@@ -829,6 +831,7 @@ height: 1px;
 
 .account-item__title {
     font-size: 24px;
+    font-weight: 400;
     margin-top: 0;
     margin-left: 0;
     margin-bottom: 5px;
