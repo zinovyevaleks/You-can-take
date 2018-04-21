@@ -62,7 +62,7 @@ svg {
 }
 
 .home-page {
-    background-image: url("../img/main-background.jpg");
+    background-image: url("../img/visual_main.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -925,8 +925,8 @@ height: 1px;
 .popup {
     position: absolute;
     top: 50px;
-    left: calc(50% - 350px);
-    border: 1px solid #4a4a4a;
+    /* left: calc(50% - 350px); */
+    /* border: 1px solid #4a4a4a; */
     width: 730px;
     margin: 0 auto;
     margin-top: 170px;
@@ -947,6 +947,8 @@ height: 1px;
 
 .popup .faq__text {
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
 }
 
 .popup .faq__video {
@@ -959,6 +961,10 @@ height: 1px;
     border-radius: 2px;
 }
 
+.popup--faq {
+    left: calc(50% - 344px);
+}
+
 .popup--faq .video__play-button {
     position: absolute;
     top: 110px;
@@ -968,12 +974,13 @@ height: 1px;
 .popup--faq .question {
     padding-bottom: 25px;
     border-bottom: 1px solid #d5d5d5;
+
 }
 
 .popup--faq .cross {
+    top: 25px;
+    right: 30px;
     position: absolute;
-    right: 0;
-    top: 0;
 }
 
 .popup--registration {
@@ -981,17 +988,19 @@ height: 1px;
     display: -ms-flexbox;
     display: flex;
     position: fixed;
+    left: calc(50% - 265px);
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     width: 560px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     padding-top: 80px;
     padding-bottom: 30px;
     overflow: hidden;
     border: none;
 }
+
 
 .popup--registration .login {
     height: 45px;
@@ -999,27 +1008,35 @@ height: 1px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 18px;
+    font-weight: 200;
     line-height: 45px;
+    letter-spacing: 1px;
 }
 
 .popup--registration .login--facebook {
     background-color: #4661b4;
-    color: white;
+color: white;
+border-radius: 5px;
 }
 
-.popup--registration .login--facebook:hover {
+/* .popup--registration .login--facebook:hover {
     background-color: #31437d;
+} */
+
+.fab {
+    margin-right: 15px;
 }
 
 .popup--registration .login--google {
-    border: 2px solid #4a4a4a;
+    border: 2px solid #767676;
+    border-radius: 5px
 }
 
-.popup--registration .login--google:hover {
+/* .popup--registration .login--google:hover {
     background-color: #4a4a4a;
     border: 2px solid transparent;
     color: white;
-}
+} */
 
 .popup--registration form {
     border-top: 1px solid #d5d5d5;
@@ -1031,18 +1048,23 @@ height: 1px;
     height: 50px;
     width: 100%;
     margin-bottom: 10px;
-    border: 1px solid #4a4a4a;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
     padding: 15px 10px;
+    font-weight: 200;
 }
+
 
 .popup--registration form button {
     width: 100%;
     background-color: #ffc337;
     height: 50px;
     border: none;
+    border-radius: 5px;
     color: white;
     font-size: 18px;
     letter-spacing: 1px;
+    font-weight: 200;
 }
 
 .popup--registration form button:hover {
@@ -1055,16 +1077,17 @@ height: 1px;
     margin-top: 20px;
     margin-bottom: 0;
     font-size: 18px;
+    font-weight: 200;
 }
 
 .popup--registration p a {
     color: #ffc337;
-    font-weight: bold;
+    font-weight: 200;
 }
 
 .popup--registration .cross {
-    top: 0;
-    right: 0;
+    top: 25px;
+    right: 30px;
     position: absolute;
 }
 
@@ -1072,6 +1095,6 @@ height: 1px;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 200;
     font-size: 18px;
 }
