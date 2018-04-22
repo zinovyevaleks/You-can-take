@@ -276,6 +276,8 @@ svg {
 }
 
 .video__player {
+    height: 440px;
+    width: 800px;
     z-index: 0;
 }
 
@@ -299,8 +301,8 @@ svg {
 
 .video__inner-wrapper {
     position: absolute;
-    top: 150px;
-    left: 275px;
+    top: 130px;
+left: 245px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -933,6 +935,7 @@ svg {
     background-color: white;
 }
 
+
 .popup .faq__title {
     text-align: center;
     font-size: 48px;
@@ -1097,6 +1100,7 @@ svg {
 .owl-carousel {
     width: 93%;
     margin: 0 auto;
+    z-index: 0;
 }
 
 .owl-carousel .owl-stage-outer {
@@ -1120,4 +1124,8 @@ svg {
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #ecac15e8;
+}
+
+.big__video {
+
 }
