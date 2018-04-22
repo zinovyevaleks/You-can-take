@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png">
         <meta property="og:type" content="image/jpeg">
         <meta property="og:image" content="http://youcantake.ru/images/visual_main.jpg" >
         <meta property="og:url"  content="http://youcantake.ru">
@@ -105,18 +105,19 @@
             <section class="popup popup--faq hidden">
                 <h3 class="faq__title">FAQ</h3>
                 <a class="cross">
-                    <svg width="30" height="30" >
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cross"></use>
-                    </svg>
+                        &times;
+                        <!-- <svg width="30" height="30" >
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cross"></use>
+                        </svg> -->
                 </a>
                 <p class="faq__text question">Какого формата вы принимаете видео и что обязательно должно присутствовать на нем?</p>
-                <p class="faq__text answer">Мы записали для вас, в нем вы найдете ответы на все вопросы связанные с подачей вашего видео в сервис.</p>
+                <p class="faq__text answer">Мы записали для вас видео, в нем вы найдете ответы на все вопросы связанные с подачей вашего видео в сервис.</p>
                 <div class="faq__video">
                     <button class="video__play-button">
-                        <svg class="icon-play" width="104" height="114">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use>
-                        </svg>
-                    </button>
+                            <svg class="icon-play" width="104" height="114">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use>
+                            </svg>
+                        </button>
                 </div>
 
                 <p class="faq__text question">Какого уровня игроки смогут пользоваться сервисом, загружать свои видео и зарабатывать на этом?</p>
@@ -124,12 +125,19 @@
             </section>
             <section class="popup popup--registration popup--signup hidden">
                 <a class="cross">
-                    <svg width="30" height="30" >
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cross"></use>
-                    </svg>
-                </a>
-                <a class="login login--facebook" href="#">Регистрация с помощью Facebook</a>
-                <a class="login login--google" href="#">Регистрация с помощью Google</a>
+                    &times;
+                        <!-- <svg width="30" height="30" >
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cross"></use>
+                        </svg> -->
+                    </a>
+                <a class="login login--facebook" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        Регистрация с помощью Facebook
+                    </a>
+                <a class="login login--google" href="#">
+                        <i class="fab fa-google"></i>
+                        Регистрация с помощью Google
+                    </a>
                 <form class="form">
                     <input type="text" placeholder="Ваш email">
                     <input type="text" placeholder="Ваш ник игре">

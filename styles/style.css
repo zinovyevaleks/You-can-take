@@ -27,8 +27,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
-
-
 body {
     font-family: 'Lato', sans-serif;
     background-color: #f1f1f1;
@@ -81,7 +79,7 @@ svg {
 .cabinet-page__title {
     text-align: center;
     font-size: 57px;
-        color: #4a4a4a;
+    color: #4a4a4a;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -277,7 +275,6 @@ svg {
     margin-bottom: 75px;
 }
 
-
 .video__player {
     z-index: 0;
 }
@@ -380,6 +377,7 @@ svg {
 .video__text.winner-name {
     font-family: 'Roboto', sans-serif;
     line-height: 30px;
+    margin-left: 20px;
 }
 
 .winner {
@@ -406,7 +404,7 @@ svg {
 
 .cup {
     position: absolute;
-    left: 82%;
+    left: 67%;
     top: 65%;
     fill: #ffc337;
 }
@@ -433,13 +431,13 @@ svg {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
-    color:  #4a4a4a;
+    color: #4a4a4a;
 }
 
 .promo__border {
-    background-color:  #d5d5d5;
-width: 1340px;
-height: 1px;
+    background-color: #d5d5d5;
+    width: 1340px;
+    height: 1px;
 }
 
 .promo__list {
@@ -511,7 +509,7 @@ height: 1px;
 .list-item__text {
     font-size: 20px;
     font-weight: 200;
-    color:  #4a4a4a;
+    color: #4a4a4a;
 }
 
 .rating {
@@ -539,10 +537,9 @@ height: 1px;
     font-family: 'Lato-Heavy', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    color:  #4a4a4a;
+    color: #4a4a4a;
     letter-spacing: 5px;
 }
-
 
 .rating__row {
     margin: 0;
@@ -557,7 +554,7 @@ height: 1px;
     width: 1136px;
     margin: 0 auto;
     margin-bottom: 10px;
-    color:  #4a4a4a;
+    color: #4a4a4a;
 }
 
 .rating__border {
@@ -651,7 +648,7 @@ height: 1px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: 3px;
-    color:  #4a4a4a;
+    color: #4a4a4a;
 }
 
 .registration__button {
@@ -971,15 +968,13 @@ height: 1px;
 .popup--faq .question {
     padding-bottom: 25px;
     border-bottom: 1px solid #d5d5d5;
-
 }
 
 .popup--faq .cross {
     top: 25px;
-    right: 66px;
+    right: 35px;
     position: absolute;
     font-size: 35px;
-
 }
 
 .popup--registration {
@@ -1000,7 +995,6 @@ height: 1px;
     border: none;
 }
 
-
 .popup--registration .login {
     height: 45px;
     width: 100%;
@@ -1014,8 +1008,8 @@ height: 1px;
 
 .popup--registration .login--facebook {
     background-color: #4661b4;
-color: white;
-border-radius: 5px;
+    color: white;
+    border-radius: 5px;
 }
 
 /* .popup--registration .login--facebook:hover {
@@ -1052,7 +1046,6 @@ border-radius: 5px;
     padding: 15px 10px;
     font-weight: 200;
 }
-
 
 .popup--registration form button {
     width: 100%;
@@ -1107,10 +1100,14 @@ border-radius: 5px;
 }
 
 .owl-carousel .owl-stage-outer {
-        margin-left: 2%;
+    margin-left: 2%;
 }
 
 .owl-carousel .owl-carousel__slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 337px;
     height: 194px;
     background-image: url('../images/video_placeholder.png');
