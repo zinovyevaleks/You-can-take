@@ -42,7 +42,7 @@ signupCross.addEventListener('click', function () {
 
 for (var i = 0; i <= registrationLinks.length; i++) {
     registrationLinks[i].addEventListener('click', function() {
-        closeModal(loginPopup);
+        // closeModal(loginPopup);
         openModal(signupPopup);
     })
 };
