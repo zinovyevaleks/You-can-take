@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/style.css">
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-        <meta property="og:type" content="image/jpeg">
-        <meta property="og:image" content="http://youcantake.ru/images/visual_main.jpg" >
-        <meta property="og:url"  content="http://youcantake.ru">
-        <meta property="og:title"  content="Youcantake - Сервис в котором тебе платят за твою игру!">
-        <meta property="og:description" content="Зарегистрируйся, запиши видео, загружай его через личный кабинет на сайте и зарабатывай!">
-        <meta property="og:image:type"  content="image/jpeg">
-        <meta property="og:image:width" content="1200" >
-        <meta property="og:image:height" content="630" >
-        <title>Youcantake - Сервис в котором тебе платят за твою игру!</title>
-    </head>
-    <svg display="none">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <meta property="og:type" content="image/jpeg">
+    <meta property="og:image" content="http://youcantake.ru/images/visual_main.jpg">
+    <meta property="og:url" content="http://youcantake.ru">
+    <meta property="og:title" content="Youcantake - Сервис в котором тебе платят за твою игру!">
+    <meta property="og:description" content="Зарегистрируйся, запиши видео, загружай его через личный кабинет на сайте и зарабатывай!">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <title>Youcantake - Сервис в котором тебе платят за твою игру!</title>
+</head>
+<svg display="none">
         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" id="icon-play">
             <path d="M1576 927l-1328 738q-23 13-39.5 3t-16.5-36v-1472q0-26 16.5-36t39.5 3l1328 738q23 13 23 31t-23 31z"/>
         </symbol>
@@ -40,50 +43,66 @@
             <polygon fill="#010101" points="77.6,21.1 49.6,49.2 21.5,21.1 19.6,23 47.6,51.1 19.6,79.2 21.5,81.1 49.6,53 77.6,81.1 79.6,79.2   51.5,51.1 79.6,23 "/>
         </symbol>
     </svg>
-    <body class="home-page">
-        <header class="page-header">
-            <div class="page-header__wrapper">
-                <a class="page-header__logo" href="index.html">
+
+<body class="home-page">
+    <header class="page-header">
+        <div class="page-header__wrapper">
+            <a class="page-header__logo" href="index.html">
                     <img src="images/logo.png">
                 </a>
-                <nav class="navigation">
-                    <ul class="navigation__list">
-                        <li class="navigation__list-item"><a class="faq-link" href="#">FAQ</a></li>
-                        <li class="navigation__list-item"><a class="login-link" href="#">Войти</a></li>
-                    </ul>
-                    <div class="navigation__language">
-                        <a class="language-flag"><img class="language-flag-rus" src="images/russia.png" width="40" height="27"></a>
-                        <a class="language-flag"><img class="language-flag-eng" src="images/england.png" width="40" height="27"></a>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__list-item"><a class="faq-link" href="#">FAQ</a></li>
+                    <li class="navigation__list-item"><a class="login-link" href="#">Войти</a></li>
+                </ul>
+                <div class="navigation__language">
+                    <a class="language-flag"><img class="language-flag-rus" src="images/russia.png" width="40" height="27"></a>
+                    <a class="language-flag"><img class="language-flag-eng" src="images/england.png" width="40" height="27"></a>
 
-                    </div>
-
-                </nav>
-            </div>
-        </header>
-        <main>
-            <section class="video">
-                <div class="video__wrapper">
-                    <div class="video__main">
-                        <img src="./images/video_placeholder.png" alt="placeholder">
-                        <!-- <video height="440" width="800" controls="controls" class="video__player">
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="video">
+            <div class="video__wrapper">
+                <div class="video__main">
+                    <img src="./images/video_placeholder.png" alt="placeholder">
+                    <!-- <video height="440" width="800" controls="controls" class="video__player">
                             <source src="video/video-1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
                         </video> -->
-                        <div class="video__inner-wrapper">
-                            <button class="video__play-button">
+                    <div class="video__inner-wrapper">
+                        <button class="video__play-button">
                                 <svg class="icon-play" width="104" height="114">
                                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use>
                                 </svg>
                             </button>
-                            <span class="video__text winner">Новый победитель!</span>
-                            <span class="video__text winner-name">symon0548</span>
-                        </div>
+                        <span class="video__text winner">Новый победитель!</span>
+                        <span class="video__text winner-name">symon0548</span>
                     </div>
-                    <div class="video__slider">
-                        <button class="previous-button">
+                </div>
+
+                <div class="owl-carousel owl-theme">
+                    <div class="owl-carousel__slide"></div>
+                    <div class="owl-carousel__slide"></div>
+                    <div class="owl-carousel__slide"></div>
+                    <div class="owl-carousel__slide"></div>
+                    <div class="owl-carousel__slide"></div>
+                    <div class="owl-carousel__slide"></div>
+                    <div class="owl-carousel__slide"></div>
+                </div>
+
+
+
+
+                <!-- <div class="video__slider">
+                        <button type="button" class="previous-button owl-prev">
                             <svg class="arrow-previous" width="32" height="32">
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#previous-arrow"></use>
                             </svg>
                         </button>
+
+
                         <div class="video__previews">
                             <div class="video__secondary-item">
                                 <button class="video__play-button">
@@ -110,208 +129,213 @@
                                 <span class="video__text winner-name">hitman047</span>
                             </div>
                         </div>
-
-                        <button class="next-button">
+                        <button class="next-button owl-next">
                             <svg class="arrow-previous" width="32" height="32">
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#previous-arrow"></use>
                             </svg>
                         </button>
-                    </div>
-                </div>
-            </section>
-            <section class="promo">
-                <div class="promo__wrapper">
-                    <h3 class="promo__title">У тебя есть <span class="colored-element">24 часа</span> чтобы выиграть!</h3>
-                    <div class="promo__border"></div>
-                    <ul class="promo__list">
-                        <li class="promo__list-item promo__list-item--register">
-                            <div class="list-item__image">
-                            </div>
-                            <div class="list-item__description">
-                                <a class="list-item__title colored-element registration-link">Регистрация</a>
-                                <p class="list-item__text">Быстрая и простая регистрация. Всего 10 секунд и ты зарабатываешь на своей игре</p>
-                            </div>
-                        </li>
-                        <li class="promo__list-item promo__list-item--account">
-                            <div class="list-item__image">
-                            </div>
-                            <div class="list-item__description">
-                                <a class="list-item__title colored-element" href="account.html">Личный кабинет</a>
-                                <p class="list-item__text">Заходи и выбирай комфортный для себя уровень депозита от 10 youcoins</p>
-                            </div>
-                        </li>
+                    </div> -->
+            </div>
+        </section>
+        <section class="promo">
+            <div class="promo__wrapper">
+                <h3 class="promo__title">У тебя есть <span class="colored-element">24 часа</span> чтобы выиграть!</h3>
+                <div class="promo__border"></div>
+                <ul class="promo__list">
+                    <li class="promo__list-item promo__list-item--register">
+                        <div class="list-item__image">
+                        </div>
+                        <div class="list-item__description">
+                            <a class="list-item__title colored-element registration-link">Регистрация</a>
+                            <p class="list-item__text">Быстрая и простая регистрация. Всего 10 секунд и ты зарабатываешь на своей игре</p>
+                        </div>
+                    </li>
+                    <li class="promo__list-item promo__list-item--account">
+                        <div class="list-item__image">
+                        </div>
+                        <div class="list-item__description">
+                            <a class="list-item__title colored-element" href="account.html">Личный кабинет</a>
+                            <p class="list-item__text">Заходи и выбирай комфортный для себя уровень депозита от 10 youcoins</p>
+                        </div>
+                    </li>
 
-                        <li class="promo__list-item  promo__list-item--start">
-                            <div class="list-item__image">
-                            </div>
-                            <div class="list-item__description">
-                                <a class="list-item__title colored-element">Выигрывай!</a>
-                                <p class="list-item__text">Начинай игру и не забудь поставить её на запись. Играй и зарабатывай на своей игре!</p>
+                    <li class="promo__list-item  promo__list-item--start">
+                        <div class="list-item__image">
+                        </div>
+                        <div class="list-item__description">
+                            <a class="list-item__title colored-element">Выигрывай!</a>
+                            <p class="list-item__text">Начинай игру и не забудь поставить её на запись. Играй и зарабатывай на своей игре!</p>
 
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="rating">
-                <div class="rating__wrapper">
-                    <h3 class="rating__title"><span class="colored-element">Топ-5</span> победителей</h3>
-                    <ul class="rating__header  rating__row">
-                        <li class="first-column">№</li>
-                        <li class="second-column">Пользователь</li>
-                        <li class="third-column">Поставил ставок</li>
-                        <li class="fourth-column">Выиграл</li>
-                    </ul>
-                    <div class="rating__border"></div>
-                    <ul class="1-place rating__row">
-                        <li class="first-column place">1</li>
-                        <li class="second-column rating__user-info"><img src="images/avatar.png"><span class="rating__user-name">symon0548</span></li>
-                        <li class="third-column"><span class="bet-amount">129</span></li>
-                        <li class="fourth-column colored-element"><span class="win-amount">880</span></li>
-                    </ul>
-                    <ul class="2-place rating__row">
-                        <li class="first-column place">2</li>
-                        <li class="second-column rating__user-info"><img src="images/avatar.png"><span class="rating__user-name">symon0548</span></li>
-                        <li class="third-column"><span class="bet-amount">129</span></li>
-                        <li class="fourth-column colored-element"><span class="win-amount">880</span></li>
-                    </ul>
-                    <ul class="3-place rating__row">
-                        <li class="first-column place">3</li>
-                        <li class="second-column rating__user-info"><img src="images/avatar.png"><span class="rating__user-name">symon0548</span></li>
-                        <li class="third-column"><span class="bet-amount">129</span></li>
-                        <li class="fourth-column colored-element"><span class="win-amount">880</span></li>
-                    </ul>
-                    <ul class="4-place rating__row">
-                        <li class="first-column place">4</li>
-                        <li class="second-column rating__user-info"><img src="images/avatar.png"><span class="rating__user-name">symon0548</span></li>
-                        <li class="third-column"><span class="bet-amount">129</span></li>
-                        <li class="fourth-column colored-element"><span class="win-amount">880</span></li>
-                    </ul>
-                    <ul class="5-place rating__row">
-                        <li class="first-column place">5</li>
-                        <li class="second-column rating__user-info"><img src="images/avatar.png"><span class="rating__user-name">symon0548</span></li>
-                        <li class="third-column"><span class="bet-amount">129</span></li>
-                        <li class="fourth-column colored-element"><span class="win-amount">880</span></li>
-                    </ul>
-                </div>
-            </section>
-            <section class="registration">
-                <div class="registration__wrapper">
-                    <h3 class="registration__title">Выигрывай<br> от <span class="colored-element">20 youcoins</span><br> на своей игре!</h3>
-                    <a class="registration__button registration-link">Регистрация</a>
-                </div>
-            </section>
-            <section class="popup popup--faq hidden">
-                <h3 class="faq__title">FAQ</h3>
-                <a class="cross">
-                    <svg width="30" height="30" >
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="rating">
+            <div class="rating__wrapper">
+                <h3 class="rating__title"><span class="colored-element">Топ-5</span> победителей</h3>
+                <ul class="rating__header  rating__row">
+                    <li class="first-column">№</li>
+                    <li class="second-column">Пользователь</li>
+                    <li class="third-column">Поставил ставок</li>
+                    <li class="fourth-column">Выиграл</li>
+                </ul>
+                <div class="rating__border"></div>
+                <ul class="1-place rating__row">
+                    <li class="first-column place">1</li>
+                    <li class="second-column rating__user-info"><img src="images/avatar.png"><span class="rating__user-name">symon0548</span></li>
+                    <li class="third-column"><span class="bet-amount">129</span></li>
+                    <li class="fourth-column colored-element"><span class="win-amount">880</span></li>
+                </ul>
+                <ul class="2-place rating__row">
+                    <li class="first-column place">2</li>
+                    <li class="second-column rating__user-info"><img src="images/avatar.png"><span class="rating__user-name">symon0548</span></li>
+                    <li class="third-column"><span class="bet-amount">129</span></li>
+                    <li class="fourth-column colored-element"><span class="win-amount">880</span></li>
+                </ul>
+                <ul class="3-place rating__row">
+                    <li class="first-column place">3</li>
+                    <li class="second-column rating__user-info"><img src="images/avatar.png"><span class="rating__user-name">symon0548</span></li>
+                    <li class="third-column"><span class="bet-amount">129</span></li>
+                    <li class="fourth-column colored-element"><span class="win-amount">880</span></li>
+                </ul>
+                <ul class="4-place rating__row">
+                    <li class="first-column place">4</li>
+                    <li class="second-column rating__user-info"><img src="images/avatar.png"><span class="rating__user-name">symon0548</span></li>
+                    <li class="third-column"><span class="bet-amount">129</span></li>
+                    <li class="fourth-column colored-element"><span class="win-amount">880</span></li>
+                </ul>
+                <ul class="5-place rating__row">
+                    <li class="first-column place">5</li>
+                    <li class="second-column rating__user-info"><img src="images/avatar.png"><span class="rating__user-name">symon0548</span></li>
+                    <li class="third-column"><span class="bet-amount">129</span></li>
+                    <li class="fourth-column colored-element"><span class="win-amount">880</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="registration">
+            <div class="registration__wrapper">
+                <h3 class="registration__title">Выигрывай<br> от <span class="colored-element">20 youcoins</span><br> на своей игре!</h3>
+                <a class="registration__button registration-link">Регистрация</a>
+            </div>
+        </section>
+        <section class="popup popup--faq hidden">
+            <h3 class="faq__title">FAQ</h3>
+            <a class="cross">
+                    &times;
+                    <!-- <svg width="30" height="30" >
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cross"></use>
-                    </svg>
+                    </svg> -->
                 </a>
-                <p class="faq__text question">Какого формата вы принимаете видео и что обязательно должно присутствовать на нем?</p>
-                <p class="faq__text answer">Мы записали для вас видео, в нем вы найдете ответы на все вопросы связанные с подачей вашего видео в сервис.</p>
-                <div class="faq__video">
-                    <button class="video__play-button">
+            <p class="faq__text question">Какого формата вы принимаете видео и что обязательно должно присутствовать на нем?</p>
+            <p class="faq__text answer">Мы записали для вас видео, в нем вы найдете ответы на все вопросы связанные с подачей вашего видео в сервис.</p>
+            <div class="faq__video">
+                <button class="video__play-button">
                         <svg class="icon-play" width="104" height="114">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use>
                         </svg>
                     </button>
-                </div>
+            </div>
 
-                <p class="faq__text question">Какого уровня игроки смогут пользоваться сервисом, загружать свои видео и зарабатывать на этом?</p>
-                <p class="faq__text answer">Сервис смогут пользоваться игроки не ниже 15-го уровня</p>
-            </section>
-            <section class="popup popup--registration popup--signup hidden">
-                <a class="cross">
+            <p class="faq__text question">Какого уровня игроки смогут пользоваться сервисом, загружать свои видео и зарабатывать на этом?</p>
+            <p class="faq__text answer">Сервис смогут пользоваться игроки не ниже 15-го уровня</p>
+        </section>
+        <section class="popup popup--registration popup--signup hidden">
+            <a class="cross">
                     <svg width="30" height="30" >
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cross"></use>
                     </svg>
                 </a>
-                <a class="login login--facebook" href="#">
+            <a class="login login--facebook" href="#">
                     <i class="fab fa-facebook-f"></i>
                     Регистрация с помощью Facebook
                 </a>
-                <a class="login login--google" href="#">
+            <a class="login login--google" href="#">
                     <i class="fab fa-google"></i>
                     Регистрация с помощью Google
                 </a>
-                <form class="form">
-                    <input type="text" placeholder="Ваш email">
-                    <input type="text" placeholder="Ваш ник игре">
-                    <input type="text" placeholder="Ваш пароль">
-                    <button type="submit">Регистрация</button>
-                </form>
-                <p>У вас есть аккаунт? <a href="#">Войти</a></p>
-            </section>
-            <section class="popup popup--registration popup--login hidden">
-                <a class="cross">
-                    <svg width="30" height="30" >
+            <form class="form">
+                <input type="text" placeholder="Ваш email">
+                <input type="text" placeholder="Ваш ник игре">
+                <input type="text" placeholder="Ваш пароль">
+                <button type="submit">Регистрация</button>
+            </form>
+            <p>У вас есть аккаунт? <a href="#">Войти</a></p>
+        </section>
+        <section class="popup popup--registration popup--login hidden">
+            <a class="cross">
+                    &times;
+                    <!-- <svg width="30" height="30" >
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cross"></use>
-                    </svg>
+                    </svg> -->
                 </a>
-                <a class="login login--facebook" href="./account.html">
+            <a class="login login--facebook" href="./account.html">
                     <i class="fab fa-facebook-f"></i>
                     Войти с помощью Facebook
                 </a>
-                <a class="login login--google" href="#">
+            <a class="login login--google" href="#">
                     <i class="fab fa-google"></i>
                     Войти с помощью Google
                 </a>
-                <form class="form">
-                    <input type="text" placeholder="Ваш email">
-                    <input type="text" placeholder="Ваш пароль">
-                    <button type="submit">Войти</button>
-                </form>
-                <a class="forget-password" href="#">Забыли пароль?</a>
-                <p>У вас нет аккаунта? <a href="#">Регистрация</a></p>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="footer__wrapper">
-                <div class="footer__logo">
-                    <img src="images/logo.png">
-                </div>
-                <div class="footer__social-wrapper">
-                    <a class="copyright" href="#">© youcantake</a>
-                    <ul class="footer__social">
-                        <li>
-                            <a class="social-link" href="https://www.youtube.com/channel/UCrjEUejvycja9-UvbB5OpqA" target="_blank">
+            <form class="form">
+                <input type="text" placeholder="Ваш email">
+                <input type="text" placeholder="Ваш пароль">
+                <button type="submit">Войти</button>
+            </form>
+            <a class="forget-password" href="#">Забыли пароль?</a>
+            <p>У вас нет аккаунта? <a href="#">Регистрация</a></p>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="footer__social-wrapper">
+                <a class="copyright" href="#">© youcantake</a>
+                <ul class="footer__social">
+                    <li>
+                        <a class="social-link" href="https://www.youtube.com/channel/UCrjEUejvycja9-UvbB5OpqA" target="_blank">
                                 <svg fill="white" width="40" height="40">
                                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-youtube"></use>
                                 </svg>
                             </a>
-                        </li>
-                        <li>
-                            <a class="social-link" href="#">
+                    </li>
+                    <li>
+                        <a class="social-link" href="#">
                                 <svg width="30" height="60" fill="white">
                                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook"></use>
                                 </svg>
                             </a>
-                        </li>
-                        <li>
-                            <a class="social-link" href="#">
+                    </li>
+                    <li>
+                        <a class="social-link" href="#">
                                 <svg width="52" height="36  " fill="white">
                                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-google"></use>
                                 </svg>
                             </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__info-wrapper">
-                    <p class="footer__notification">Ваши вопросы и предложения направляйте на <a href="mailto:hello@youcantake.ru"><span class="colored-element">hello@youcantake.ru</span></a><br>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__info-wrapper">
+                <p class="footer__notification">Ваши вопросы и предложения направляйте на <a href="mailto:hello@youcantake.ru"><span class="colored-element">hello@youcantake.ru</span></a><br>
                     <span class="colored-element">youcoins</span> - внутренняя валюта сервиса youcantake</p>
-                    <p class="footer__author">
-                        <span>Made by</span>
-                        <a href="https://smuzi.digital" target="_blank">
+                <p class="footer__author">
+                    <span>Made by</span>
+                    <a href="https://smuzi.digital" target="_blank">
                             <svg width="30" height="30" fill="white">
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-smuzi"></use>
                             </svg>
                         </a>
-                    </p>
-                </div>
+                </p>
             </div>
-        </footer>
-        <script type="text/javascript" charset="utf-8" src="scripts/video.js"></script>
-        <script type="text/javascript" charset="utf-8" src="scripts/popup.js"></script>
-    </body>
+        </div>
+    </footer>
+    <script type="text/javascript" charset="utf-8" src="scripts/video.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/popup.js"></script>
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="scripts/owl.carousel.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/slider.js"></script>
+</body>
+
 </html>

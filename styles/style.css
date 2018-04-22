@@ -271,7 +271,7 @@ svg {
 
 .video__main {
     position: relative;
-    width: 800px;
+    width: 860px;
     height: 440px;
     margin: 0 auto;
     margin-bottom: 75px;
@@ -319,15 +319,7 @@ svg {
 }
 
 .video__slider {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    margin: 0 auto;
 }
 
 .video__slider button {
@@ -369,12 +361,9 @@ svg {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 325px;
-    height: 180px;
+    /* width: 325px;
+    height: 180px; */
     /* background-color: yellow; */
-    background-image: url('../images/video_placeholder.png');
-    background-size: cover;
-
 }
 
 .video__secondary-item .video__play-button {
@@ -987,8 +976,10 @@ height: 1px;
 
 .popup--faq .cross {
     top: 25px;
-    right: 30px;
+    right: 66px;
     position: absolute;
+    font-size: 35px;
+
 }
 
 .popup--registration {
@@ -1095,8 +1086,9 @@ border-radius: 5px;
 
 .popup--registration .cross {
     top: 25px;
-    right: 30px;
+    right: 35px;
     position: absolute;
+    font-size: 35px;
 }
 
 .popup--registration .forget-password {
@@ -1105,4 +1097,30 @@ border-radius: 5px;
     margin-bottom: 10px;
     font-weight: 200;
     font-size: 18px;
+}
+
+/* Карусель */
+
+.owl-carousel {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.owl-carousel .owl-stage-outer {
+        margin-left: 2%;
+}
+
+.owl-carousel .owl-carousel__slide {
+    width: 337px;
+    height: 194px;
+    background-image: url('../images/video_placeholder.png');
+    background-size: cover;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background-color: #ffc337d4;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #ecac15e8;
 }
