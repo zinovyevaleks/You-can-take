@@ -62,13 +62,13 @@ svg {
 }
 
 .home-page {
-    background-image: url("../img/visual_main.jpg");
+    background-image: url("../images/visual_main.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .cabinet-page {
-    background-image: url(../img/cabinet-header.png);
+    background-image: url(../images/cabinet-header.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -81,6 +81,7 @@ svg {
 .cabinet-page__title {
     text-align: center;
     font-size: 57px;
+        color: #4a4a4a;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -117,7 +118,9 @@ svg {
     width: 145px;
     height: 50px;
     font-size: 19px;
+    color: #4a4a4a;
     text-align: center;
+    text-decoration: underline;
     line-height: 50px;
 }
 
@@ -127,8 +130,9 @@ svg {
 
 .cabinet-page__navigation-item--active {
     background-color: #ffc337;
+    text-decoration: none;
     color: white;
-    border-bottom: 5px solid #fffffffa;
+    border-bottom: 5px solid #ffffff87;
 }
 
 .cabinet-page__navigation-item--active a:hover {
@@ -247,7 +251,7 @@ svg {
     padding-bottom: 100px;
     padding-top: 360px;
     color: #ffc337;
-    background-image: url(../img/mask-1.jpg), url(../img/mask-2.jpg);
+    background-image: url(../images/mask-1.jpg), url(../images/mask-2.jpg);
     background-repeat: no-repeat;
     background-position: 0% 80%, 0 93%;
     background-size: 100%;
@@ -368,7 +372,7 @@ svg {
     width: 325px;
     height: 180px;
     /* background-color: yellow; */
-    background-image: url('../img/video_placeholder.png');
+    background-image: url('../images/video_placeholder.png');
     background-size: cover;
 
 }
@@ -473,14 +477,14 @@ height: 1px;
 }
 
 .promo__list-item--register .list-item__image {
-    background-image: url(../img/img-1.png);
+    background-image: url(../images/img-1.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 0% 50%;
 }
 
 .promo__list-item--account .list-item__image {
-    background-image: url(../img/img-2.png);
+    background-image: url(../images/img-2.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 0% 50%;
@@ -491,7 +495,7 @@ height: 1px;
 }
 
 .promo__list-item--start .list-item__image {
-    background-image: url(../img/img-3.png);
+    background-image: url(../images/img-3.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 0% 50%;
@@ -523,7 +527,7 @@ height: 1px;
 
 .rating {
     font-size: 20px;
-    background-image: url(../img/mask-1.jpg);
+    background-image: url(../images/mask-1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 140%;
@@ -576,7 +580,7 @@ height: 1px;
 }
 
 .rating__header {
-    font-weight: 200;
+    font-weight: 400;
     margin-bottom: 18px;
 }
 
@@ -633,7 +637,7 @@ height: 1px;
 .registration {
     padding-top: 100px;
     padding-bottom: 300px;
-    background-image: url(../img/background-2.png), url(../img/background-1.jpg);
+    background-image: url(../images/background-2.png), url(../images/background-1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     color: #4a4a4a;
@@ -686,7 +690,7 @@ height: 1px;
     padding-bottom: 20px;
     color: white;
     background-color: #131313;
-    background-image: url(../img/background-footer.png), url(../img/mask-footer.jpg), url(../img/mask-1.jpg);
+    background-image: url(../images/background-footer.png), url(../images/mask-footer.jpg), url(../images/mask-1.jpg);
     background-repeat: no-repeat;
     background-position: 100% 0, 0 120px, 0 -50px;
     background-size: auto, 100%, 100%;
@@ -839,6 +843,7 @@ height: 1px;
 
 .account-item__content {
     display: -webkit-box;
+    margin-top: 20px;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
