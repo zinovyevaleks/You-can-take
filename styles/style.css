@@ -278,10 +278,10 @@ svg {
 }
 
 .video__player {
-    height: 440px;
-    width: 800px;
+    width: 842px;
+    height: 486px;
     z-index: 0;
-    
+
 }
 
 .video__play-button {
